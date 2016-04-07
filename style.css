@@ -81,3 +81,10 @@ h1 {
     padding-top: 0.5%;
     padding-bottom: 0.5%;
 }
+#row-2 {
+    width: 100%;
+}
+#highlighed-right {
+    background-color: red;
+    height: 100%;
+}
