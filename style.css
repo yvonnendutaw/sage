@@ -90,8 +90,9 @@ div#highlighted-right {
     background-color: red;
     height: auto;
 }
-#highlighed-left {
-    float: left;
+div#highlighted-left {
     background-color: white;
-    width: 50%
+    float: left;
+    width: 50%;
+    height: auto;
 }
