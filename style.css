@@ -1,8 +1,6 @@
 div#container {
-    width: 90%;
+    width: 100%;
     display: block;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 div#row-1 {
     background-color: #3A3033;
@@ -87,7 +85,7 @@ h1 {
 div#highlighted-right {
     width: 50%;
     float: right;
-    background-color: red;
+    background-color: #FF0047;
     height: auto;
 }
 div#highlighted-left {
@@ -95,4 +93,16 @@ div#highlighted-left {
     float: left;
     width: 50%;
     height: auto;
+}
+#text {
+    padding: 20%;
+    color: white;
+    font-size: 0.7em;
+    margin-top: 20%;
+}
+#blank {
+    background-color: aquamarine;
+    height: 30%;
+    float: left;
+    width: 50%;
 }
