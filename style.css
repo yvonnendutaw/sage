@@ -84,7 +84,14 @@ h1 {
 #row-2 {
     width: 100%;
 }
-#highlighed-right {
+div#highlighted-right {
+    width: 50%;
+    float: right;
     background-color: red;
-    height: 100%;
+    height: auto;
+}
+#highlighed-left {
+    float: left;
+    background-color: white;
+    width: 50%
 }
