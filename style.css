@@ -106,3 +106,19 @@ div#highlighted-left {
     float: left;
     width: 50%;
 }
+.button {
+    color: white;
+    background-color: #FF0047;
+    padding: 1% 4%;
+    text-decoration: none;
+}
+.row {
+    display: block;
+}
+#history {
+    display: block;
+    width: 50%;
+    float: left;
+    background-color: white;
+    line-height: 2em;
+}
