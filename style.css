@@ -121,4 +121,14 @@ div#highlighted-left {
     float: left;
     background-color: white;
     line-height: 2em;
+    height: 50%;
+}
+#sage {
+    width: 50%;
+    float: right;
+    background-color: white;
+}
+#sage img {
+    width: 50%;
+    align-content: center;
 }
