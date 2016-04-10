@@ -117,20 +117,28 @@
         display: block;
         float: left;
         background-color: white;
-        line-height: 2em;
+        height: 39em;
+    }
+    #history h2 {
+        margin: 2em 3em;
     }
     #history p {
-        padding-left: 3%;
+        padding: 10%;
+        margin: 2em auto;
+        font-size: 0.9em;
+        margin-right: 4em;
     }
     #sage {
         display: block;
         width: 50%;
         float: right;
         background-color: white;
+        height: 39em;
     }
     #sage img {
-        width: 30%;
+        width: 55%;
         align-content: center;
+        margin: 2em 25%
     }
     #blank {
         height: 12em;
