@@ -103,11 +103,12 @@
         font-size: 0.7em;
         margin-top: 20%;
     }
-    .button {
+    #history .button {
         color: white;
         background-color: #FF0047;
         padding: 1% 4%;
         text-decoration: none;
+        margin-left: 4em;
     }
     .row {
         display: block;
@@ -120,7 +121,7 @@
         height: 39em;
     }
     #history h2 {
-        margin: 2em 3em;
+        margin: 2em 3em 0 3em;
     }
     #history p {
         padding: 10%;
@@ -182,8 +183,9 @@
     #discover #button {
         padding: 0 8%;
         margin: 3em 5em 0 4em;
-        background-color: red;
+        background-color: #FF0047;
         height: 2.5em;
+        color: white;
     }
     #2180 {
         width: 100%;
