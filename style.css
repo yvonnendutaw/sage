@@ -18,7 +18,10 @@ img {
     display: inherit;
     margin-left: 25%;
     margin-left: 25%;
-    margin-top: 0;
+    margin-top: -7%;
+}
+li a: hover {
+    border: solid 2px white;
 }
 li {
     display: inline-block;
@@ -43,7 +46,7 @@ body {
     display: block;
 }
 #icons {
-    margin-top: -6%;
+    margin-top: -%;
 }
 #icons li {
     color: rgba(255, 255, 255, 0.51);
@@ -122,6 +125,9 @@ div#highlighted-left {
     background-color: white;
     line-height: 2em;
     height: 50%;
+}
+#history p {
+    padding-left: 3%;
 }
 #sage {
     width: 50%;
