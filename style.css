@@ -144,24 +144,25 @@ div#highlighted-left {
 #blank {
     height: 12em;
 }
-#blank {
-    width: 100%;
-}
 #blank #gray1 {
-    width: 24%;
+    width: 33.33%;
     float: left;
     height: 12em;
+    background-color: #3A3033;
 }
 #blank #gray2 {
     height: 50%;
     background-color: #352B2F;
     height: 12em;
+    width: 66.66%;
 }
 #blank #grey1 {
-    width: 30% height: 50%;
+    height: 50%;
     background-color: #3A3033;
     float: right;
     height: 12em;
+    width: 33.33%;
+    margin-top: -28.4%;
 }
 #projects p {
     padding: 2em;
@@ -194,20 +195,7 @@ div#highlighted-left {
     margin: auto;
     width: 100%;
     background-color: white;
-}
-.image-4 {
-    float: right;
-}
-.image-2 {
-    float: left;
-}
-.image-3 {
-    float: center;
-}
-.images img {
-    height: 5em;
-    width: 4em;
-    margin-right: 10em;
+    align-content: center;
 }
 .col.col-4.columns {
     background-color: white;
