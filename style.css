@@ -214,10 +214,11 @@ div#highlighted-left {
     color: black;
 }
 #head {
-    font-size: 70px;
+    font-size: 40px;
     margin-left: 5%;
     padding-top: 0;
     margin-bottom: 0%;
+    width: 50%;
 }
 .blank {
     height: 12em;
@@ -258,4 +259,5 @@ button {
     float: right;
     width: 50%;
     margin: 0;
+    height: auto;
 }
