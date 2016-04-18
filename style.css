@@ -202,3 +202,38 @@ div#highlighted-left {
     background-color: white;
 }
 */
+
+.highlighted-text {
+    background-color: white;
+    width: 50%;
+}
+.highlighted-text p {
+    margin-left: 5%;
+    font-size: 20px;
+    padding-top: 5%;
+    color: black;
+}
+#head {
+    font-size: 70px;
+    margin-left: 5%;
+    padding-top: 0;
+    margin-bottom: 0%;
+}
+.blank {
+    height: 12em;
+    width: 50%;
+}
+.blank2 {
+    height: 12em;
+    background-color: #352B2F;
+    float: right;
+    width: 33%;
+    margin: 0;
+}
+.blank3 {
+    height: 12em;
+    background-color: #352B2F;
+    float: left;
+    width: 33%;
+    margin: 0;
+}
