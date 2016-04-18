@@ -131,7 +131,7 @@ div#highlighted-left {
 }
 #sage {
     display: block;
-    width: 50%;
+   width:
     float: right;
     background-color: white;
     height: 39em;
@@ -162,7 +162,7 @@ div#highlighted-left {
     float: right;
     height: 12em;
     width: 33.33%;
-    margin-top: -28.4%;
+    margin-top: -39.2%;
 }
 #projects p {
     padding: 2em;
