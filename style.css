@@ -237,3 +237,19 @@ div#highlighted-left {
     width: 33%;
     margin: 0;
 }
+#discover {
+    background-color: white;
+    width: 50%;
+    padding: 0 0 1% 0;
+}
+#discover p,
+button {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#discover button {
+    background-color: #FF0047;
+    padding: 2%;
+    border: solid 0 transparent;
+    color: white;
+}
