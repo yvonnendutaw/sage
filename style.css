@@ -2,14 +2,9 @@ div#container {
     width: 100%;
     display: block;
 }
-div#row-1 {
+div .header {
     background-color: #3A3033;
     width: 100%;
-}
-#header {
-    display: inline-block;
-    width: 100%;
-    margin: 0%;
 }
 img {
     width: 6%;
@@ -112,7 +107,10 @@ div#highlighted-left {
 }
 .row {
     display: block;
+    max-width: 100%;
 }
+
+/*
 #history {
     width: 50%;
     display: block;
@@ -131,8 +129,7 @@ div#highlighted-left {
 }
 #sage {
     display: block;
-   width:
-    float: right;
+    width: float: right;
     background-color: white;
     height: 39em;
 }
@@ -141,6 +138,10 @@ div#highlighted-left {
     align-content: center;
     margin: 2em 25%
 }
+*/
+
+
+/*
 #blank {
     height: 12em;
 }
@@ -200,3 +201,4 @@ div#highlighted-left {
 .col.col-4.columns {
     background-color: white;
 }
+*/
