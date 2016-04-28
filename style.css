@@ -33,14 +33,14 @@ ul li a {
     font-size: 0.8em;
 }
 body {
-    background-color: black;
     margin: 0;
     padding: 0;
     width: 100%;
     display: block;
+    background-color: #3A3033;
 }
 #icons {
-    margin-top: -%;
+    margin-top: -3%;
 }
 #icons li {
     color: rgba(255, 255, 255, 0.51);
@@ -254,10 +254,17 @@ button {
     border: solid 0 transparent;
     color: white;
 }
-.infinity {
+.highlighted-right {
     background-color: #FF0047;
     float: right;
     width: 50%;
     margin: 0;
+    margin-left: 3%;
     height: auto;
+}
+.#text h1 {
+    font-size: 3em;
+    color: white;
+    font-weight: 200;
+    padding: 1%;
 }
