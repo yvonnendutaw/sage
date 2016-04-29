@@ -1,0 +1,30 @@
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    border: 3px solid white;
+}
+
+.header {
+    text-align: center;
+    align-content: center;
+}
+
+.banner {
+    background-color: grey;
+    height: 25em;
+}
+
+.right{
+    height: 10em;
+    background-color:red;
+}
+
+.row1 {
+    float: left;
+}
+
+.black {
+    background-color: black;
+}
