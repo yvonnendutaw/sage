@@ -33,3 +33,10 @@ li {
 .left {
     padding: 0
 }
+
+.middlerow {
+    padding: 0;
+    margin: 0;
+  padding-left: 10px;
+
+}
