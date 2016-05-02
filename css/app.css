@@ -52,3 +52,10 @@ li {
 .bold {
     text-decoration: underline;
 }
+
+.journ {
+    height: 15em;
+    background-color: black;
+    padding-top: 2em;
+    border: 1em solid white;
+}
