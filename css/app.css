@@ -48,3 +48,7 @@ li {
     text-align: center;
     align-content: center;
 }
+
+.bold {
+    text-decoration: underline;
+}
