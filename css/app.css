@@ -59,3 +59,7 @@ li {
     padding-top: 2em;
     border: 1em solid white;
 }
+
+.content {
+    border: 2em solid;
+}
