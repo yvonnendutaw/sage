@@ -69,5 +69,11 @@ li {
 .show {
     text-align: center;
     align-content: center;
-    text-decoration: underline
+    text-decoration: underline;
+    padding-top: 3em
+}
+
+.blackrow {
+    background-color: black;
+
 }
