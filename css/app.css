@@ -74,7 +74,7 @@ li {
 }
 
 .blackrow {
-    background-color: black;
+    background-color: grey;
     color: white;
     text-align: center;
 
@@ -83,4 +83,11 @@ li {
 .logos {
     align-content: center;
     text-align: center;
+}
+
+.greyfooter {
+    padding: 0;
+    background-color: grey;
+    height: 5em;
+    align-content: center;
 }
