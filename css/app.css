@@ -88,6 +88,18 @@ li {
 .greyfooter {
     padding: 0;
     background-color: grey;
-    height: 5em;
+    height:10em;
     align-content: center;
+}
+
+.blakfooter {
+    padding: 0;
+    background-color: #262626;
+    height: 10em;
+    align-content: center;
+
+}
+
+.footer {
+    border-top: 1em solid white;
 }
