@@ -65,3 +65,9 @@ li {
     align-content: center;
     text-align: center;
 }
+
+.show {
+    text-align: center;
+    align-content: center;
+    text-decoration: underline
+}
