@@ -3,13 +3,13 @@ li {
     display: inline-block;
     list-style-type: none;
     text-align: center;
-    border: 3px;
+    border: 3em;
 }
 
 .header {
     text-align: center;
-    align-content: center;
     padding-top: 0;
+
 }
 
 .banner {
@@ -33,7 +33,8 @@ li {
 }
 
 .left {
-    padding: 0
+    padding: 0;
+    padding-left: 10%
 }
 
 .middlerow {
