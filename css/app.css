@@ -3,7 +3,7 @@ li {
     display: inline-block;
     list-style-type: none;
     text-align: center;
-    border: 3px solid white;
+    border: 3px;
 }
 
 .header {
@@ -14,6 +14,7 @@ li {
 .banner {
     background-color: grey;
     height: 25em;
+    padding-top: 0;
 }
 
 .right{
