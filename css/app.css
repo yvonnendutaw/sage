@@ -9,6 +9,7 @@ li {
 .header {
     text-align: center;
     align-content: center;
+    padding-top: 0;
 }
 
 .banner {
