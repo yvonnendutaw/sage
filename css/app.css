@@ -3,7 +3,7 @@ body {
 	margin: 0;
 }
 
-.row.row {
+.row {
 	padding: 0;
 	margin: 0;
 	max-width: 100%;
@@ -35,4 +35,24 @@ li a {
 
 .build {
 	margin-top: 20vh;
+}
+
+.grey {
+	height: 200px;
+	33.33%;
+	background-color: #292224;
+}
+
+.gray {
+	height: 200px;
+	background-color: #31282B;
+}
+
+.infinity {
+	background-color: #F63C3D;
+	height: 100vh;
+}
+
+.highlighted {
+	100vh;
 }
