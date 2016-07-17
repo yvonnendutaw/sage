@@ -1,0 +1,37 @@
+.stats {
+  .column {
+    text-align: center;
+    padding: 4rem 0 3rem 0;
+  }
+  background: white;
+  &__num {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-bottom: rem(-28px);
+    margin-top: rem(-14px);
+    color: $bgaccent;
+    font-family: 'teko', sans-serif;
+    font-weight: 300;
+    font-size: rem(80px);
+    text-align: center;
+    letter-spacing: letterspacing(10,80);
+  }
+  &__desc {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: #353535;
+    font-family: 'titillium web', sans-serif;
+    font-size: rem(16px);
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: rem(650px)) {
+  .stats .row {
+    display: flex;
+    flex-direction: column;
+    .column { padding: 2rem 0; }
+  }
+}

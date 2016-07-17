@@ -1,0 +1,54 @@
+.pagination {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+
+  &__links {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-bottom: rem(-6px);
+
+    &:hover {
+      .active {
+        background: rgba(255,255,255,.6);
+        background-clip: padding-box;
+        &:hover {
+          background: white;
+          background-clip: padding-box;
+        }
+      }
+    }
+  }
+
+  &__link {
+    box-sizing: content-box;
+    display: inline-block;
+    height: rem(4px);
+    width: rem(40px);
+    border-top: rem(4px) solid rgba(255,255,255,0);
+    border-bottom: rem(40px) solid rgba(255,255,255,0);
+    border-right: rem(4px) solid rgba(255,255,255,0);
+    border-left: rem(4px) solid rgba(255,255,255,0);
+    background: rgba(255,255,255,.2);
+    background-clip: padding-box;
+    cursor: pointer;
+
+    &:hover {
+      background: white;
+      background-clip: padding-box;
+    }
+    &.active {
+      background: rgba(255,255,255,1);
+      background-clip: padding-box;
+    }
+    &:active {
+      background: $accent;
+      background-clip: padding-box;
+    }
+  }
+}

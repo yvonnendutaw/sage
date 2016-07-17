@@ -1,0 +1,27 @@
+.cta {
+  padding: rem(45px) rem(15px) rem(56px) rem(15px);
+  text-align: center;
+  background-color: #2c2c2c;
+  background: url('../img/ctabackground.png');
+  @include background-cover;
+  h3 {
+    margin: 0 auto rem(-8px) 0;
+  }
+  p {
+    margin: 0 auto 1rem 0;
+    color: white;
+    opacity: .7;
+    margin-bottom: rem(26px);
+  }
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 4px white solid;
+    h5 { margin: 0 auto rem(3px) auto; }
+    &:hover {
+      // border-bottom: 4px solid $accent;
+      h5 { color: $accent; }
+    }
+  }
+}

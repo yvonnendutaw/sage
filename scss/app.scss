@@ -1,0 +1,141 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css";
+@import "https://fonts.googleapis.com/css?family=Teko:300|Titillium+Web:300";
+
+@function rem($size) { @return #{$size / 16px;}rem; }
+
+@function letterspacing($kerning, $pixelHeight) {
+  $rem: $pixelHeight/16;
+  $size: $kerning/1000;
+  @return #{$rem*$size}rem;
+}
+
+@mixin button($background, $color) {
+  display: block;
+  margin: 0 auto;
+  height: rem(50px);
+  width: rem(230px);
+  background: $background;
+
+  color: $color;
+  font-family: 'teko', sans-serif;
+  font-size: rem(20px);
+  font-weight: 300;
+  line-height: 100%;
+  text-transform: uppercase;
+  letter-spacing: .175rem;
+  text-decoration: none;
+  text-align: center;
+  line-height: rem(50px);
+}
+
+@mixin background-cover {
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+}
+
+$accent: #e8504f;
+$bgaccent: #f63c3c;
+$bodyBase: #787579;
+$navBase: #352d2f;
+$greyText: #959595;
+$brown: #30282a;
+
+@mixin commonTransition {
+  transition: all 500ms ease;
+}
+.row {
+  max-width: rem(1200px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  padding: 0 rem(15px);
+  width: 100%;
+}
+
+@mixin pink-button {
+  background: $accent;
+  color: white;
+  &:hover {
+    background: $brown;
+    color: white;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { font-size: 16px; }
+
+body {
+  padding: 0;
+  padding-top: rem(70px);
+  margin:0;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: rem(16px);
+  background: #afa19b;
+}
+
+main { overflow: hidden; }
+
+p { hyphens: auto;  }
+
+h2, h3, h4, h5 {
+  font-family: 'teko', sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: rem(80px);
+  color: $brown;
+  line-height: .9375;
+  letter-spacing: letterspacing(150, 80);
+}
+h3 {
+  color: white;
+  font-size: rem(40px);
+  font-color: white;
+  letter-spacing: letterspacing(75,40);
+}
+h4 {
+  font-size: rem(30px);
+  line-height: 1.0;
+  letter-spacing: letterspacing(75,30);
+}
+h5 {
+  font-size: rem(20px);
+  line-height: 1.2;
+  letter-spacing: letterspacing(150,20);
+}
+
+p {
+  font-size: rem(18px);
+  line-height: 1.5;
+  color: #555;
+  font-family: 'titillium web', sans-serif;
+  font-weight: 300;
+  &.small {
+    font-size: rem(14px);
+  }
+}
+@media screen and (max-width: rem(480px)) {
+  h2 {
+    font-size: rem(60px);
+    letter-spacing: letterspacing(150, 60);
+  }
+}
+
+@import "nav";
+@import "hero";
+@import "featured";
+@import "history";
+@import "stats";
+@import "services";
+@import "cta";
+@import "journal";
+@import "quotes";
+@import "social";
+@import "footer";
+@import "pagination";

@@ -1,0 +1,88 @@
+.journal {
+  background: #fafafa;
+
+  h2 {
+    margin-bottom: rem(40px);
+    margin-top: rem(105px);
+  }
+  .column {
+    img {
+      max-width: 100%;
+      margin-bottom: rem(44px);
+    }
+  }
+  article.column {
+    background: white;
+    padding: 0;
+    margin: 0 rem(16px);
+    h4 {
+      text-align: center;
+      max-width: rem(250px);
+      margin: 0 auto rem(14px) auto;
+    }
+    a {
+      @include button(rgba(0,0,0,0), black);
+      border: 2px solid black;
+      margin-bottom: rem(60px);
+      &:hover {
+        color: white;
+        background: $accent;
+        border: 2px solid $accent;
+      }
+    }
+    p {
+      max-width: rem(350px);
+      text-align: center;
+      margin: 0 auto rem(28px) auto;
+      padding: 0 rem(15px);
+    }
+  }
+  span.category {
+    display: block;
+    margin-bottom: rem(6px);
+
+    text-align: center;
+    font-family: 'teko', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: letterspacing(75,18);
+    font-size: rem(18px);
+    color: $accent;
+  }
+  footer {
+    padding: rem(22px) rem(15px) rem(58px) rem(15px);
+    text-align: center;
+
+    a {
+      display: inline-block;
+      text-align: center;
+      text-decoration: none;
+      h5 {
+        border-bottom: none;
+        margin-bottom: rem(4px);
+        color: $brown;
+      }
+      border-bottom: 4px solid $brown;
+    }
+  }
+}
+
+@media screen and (max-width: rem(900px)) {
+  .journal {
+    h2 {
+      text-align: center;
+      margin-top: rem(70px);
+    }
+    .row {
+      flex-direction: column;
+    }
+    article.column {
+      max-width: rem(600px);
+      margin: 0 auto;
+      p {
+        max-width: rem(540px);
+        text-align: justify;
+      }
+    }
+  }
+}
