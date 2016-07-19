@@ -191,7 +191,7 @@ p.small {
 	display: flex;
 }
 
-.header__social a img:hover {
+.header__social a img {
 	margin-right: 1.125rem;
 }
 
